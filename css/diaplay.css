@@ -1,0 +1,26 @@
+.dis-block{
+    display: block;
+}
+
+.hidden{
+    display:none;
+}
+
+.hidden1{
+    visibility: hidden;
+}
+
+.inline{
+    display: inline;
+    background-color: red;
+    height: 300px;
+    width: 500px;
+ 
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: gray;
+    height: 40px;
+    width: 250px;
+}

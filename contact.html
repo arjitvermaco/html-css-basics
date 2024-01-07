@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+
+    <a href="tel:+919898989898">Call Me</a>
+    <a href="sms:+919898989898">SMS</a>
+    <a href="resume.pdf" download="">Download Resume</a>
+    <a href="mailto:arjit.verma@gmail.com">Email</a>
+    <a href="https://github.com/arjitvermaco">Github</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="" method="get">
+        <label for="fullName">Enter your full name</label>
+        <input type="text" required name="fullName" id="fullName">
+        <br>
+        <label for="password">Enter your Password</label>
+        <input type="password" required name="password" id="password">
+        <br>
+        <label for="email">Enter your Email</label>
+        <input type="email" required name="email" id="email">
+        <br>
+        <input type="radio" name="contactreason" value="Project">
+        <label for="contactreason">Project</label>
+
+        <input type="radio" name="contactreason" value="Training">
+        <label for="contactreason">trainings</label>
+
+        <input type="radio" name="contactreason" value="Webinar">
+        <label for="contactreason">Webinar</label>
+
+        <h3>What do you like?</h3>
+
+        <input type="radio" name="like" value="Ice Cream">
+        <label for="like">Ice Cream</label>
+
+        <input type="radio" name="like" value="Pizza">
+        <label for="like">Pizzas</label>
+
+        <input type="radio" name="like" value="Biryani">
+        <label for="like">Biryani</label>
+
+        <br>
+        <input type="checkbox" id="tnc" name="tnc" required>
+        <label for="tnc">Agree to Terms and Conditions</label>
+
+        <br>
+        <label for="color">Select your fav color?</label>
+        <input id="color" name="color" type="color">
+
+        <br>
+        <label for="date">What is the date?</label>
+        <input id="date" name="date" type="date" value="2023-12-31" min="2023-12-01" max="2024-01-31">
+        <br>
+        <label for="meeting-time">Choose a time for your appointment:</label>
+        <input type="datetime-local" name="meeting-time" id="meeting-time">
+        <br>
+
+        <label for="avatar">Choose a profile picture:</label>
+
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+        <br>
+
+
+
+        <input type="range" value="10" id="volume" name="volume" min="0" max="100" />
+        <label for="volume">Volume</label>
+
+        <br>
+
+        <label for="appt">Choose a time for your meeting:</label>
+
+        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+        <br>
+        <label for="story">Tell us your story:</label>
+        <br>
+        <textarea id="story" name="story" rows="10" cols="100">
+
+        </textarea>
+        <br>
+        <label for="car">Choose A car</label>
+        <select name="car" id="car">
+            <option value="Audi Car">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Maruti">Maruti</option>
+            <option value="Toyota">Toyota</option>
+            <option value="KIA">KIA</option>
+        </select>
+        <br>
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome"></option>
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit" value="Submit Form">
+
+    </form>
+</body>
+
+</html>

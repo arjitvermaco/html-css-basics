@@ -1,0 +1,17 @@
+.box1{
+   
+    width: 400px;
+    background: red;
+    /* margins  */
+    /* margin: 100px; */
+    /* margin-top: 50px; */
+    /* margin-left: 200px; */
+    margin: 100px 300px 50px 100px;
+    /* TRBL  */
+    border: 3px solid green;
+    /* padding: 50px; */
+    /* padding-top: 100px; */
+    /* padding-left:40px; */
+    padding: 100px 50px 80px 50px;
+    /* box-sizing: border-box; */
+}

@@ -1,0 +1,39 @@
+.box{
+    width: 400px;
+    background-color: burlywood;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.static{
+    position: static;
+    /* you cannot apply top right bottom left here  */
+}
+
+.relative{
+    position: relative;
+    top:70px;
+    background-color: aquamarine;
+    /* top right bottom left  */
+    /* margin-top: 80px; */
+}
+
+.fixed{
+    position: fixed;
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+}
+
+.absolute{
+    position: absolute;
+    background-color: coral;
+    top: 0;
+    left: 0;
+}
+
+.sticky{
+    position: sticky;
+    background-color: yellow;
+    top: 100px;
+}

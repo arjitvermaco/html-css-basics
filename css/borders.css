@@ -1,0 +1,31 @@
+.border1{
+    border: 5px solid teal;
+    /* border: width style color  */
+}
+
+.borderTop{
+    border-top: 5px dashed red;
+}
+
+.borderBottom{
+    border-bottom: 5px solid green;
+}
+
+.borderRadius{
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    border-radius: 50%;
+}
+
+.circle-inner{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}

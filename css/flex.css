@@ -1,0 +1,57 @@
+.box{
+    
+}
+
+.box1{
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+}
+
+.box2{
+    background-color: blueviolet;
+    /* height: 400px; */
+}
+.box3{
+    background-color: brown;
+    flex-grow: 2;
+}
+.box4{
+    background-color: red;
+    order:1
+    
+}
+.box5{
+    background-color: green;
+    align-self:center;
+}
+.box6{
+    background-color: indianred;
+}
+.box7{
+    background-color: indigo;
+    order:-2
+}
+.box8{
+    background-color:teal;
+    order:-1;
+}
+
+
+/* Flex Properties  */
+
+.flex-container{
+    height: 600px;
+    display: flex;
+    /* flex-direction: column; */
+    background-color:chartreuse;
+    padding: 30px;
+    justify-content: flex-start;
+    /* flex-start | flex-end | center |  */
+    /* space-betwen | space-around | space-evenly*/
+    /* justify-content: space-evenly ; => main axis  */
+    /* flex-start | flex-end | center */
+    /* align-items:stretch */
+    /* align-items: flex-end; */
+
+}
